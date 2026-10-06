@@ -1,0 +1,16 @@
+# Local credentials and runtime artifacts
+.DS_Store
+.local/
+.env
+.env.*
+!.env.example
+*.log
+
+# Dependencies and generated output (keep dependency lockfiles tracked)
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+__pycache__/
+*.pyc
+.venv/

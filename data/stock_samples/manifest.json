@@ -1,0 +1,671 @@
+{
+  "source": "baostock",
+  "source_url": "https://baostock.com/",
+  "documentation_url": "http://baostock.com/baostock/index.php/Python_API文档",
+  "sdk_version": "00.9.40",
+  "downloaded_at": "2026-10-06T15:36:00.705918+08:00",
+  "requested_start": "2024-01-01",
+  "requested_end": "2025-12-31",
+  "frequency": "d",
+  "adjustflag": "3",
+  "adjustment": "unadjusted",
+  "codes": [
+    "sh.600000",
+    "sh.600009",
+    "sh.600028",
+    "sh.600036",
+    "sh.600030",
+    "sh.600050",
+    "sh.600276",
+    "sh.600519",
+    "sh.601318",
+    "sh.601398",
+    "sz.000001",
+    "sz.000002",
+    "sz.000063",
+    "sz.000333",
+    "sz.000651",
+    "sz.000858",
+    "sz.002415",
+    "sz.002594",
+    "sz.300059",
+    "sz.300750"
+  ],
+  "files": [
+    {
+      "path": "raw/baostock/sh.600000_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600000",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "df74b911a17ab6bb4f5c77e4af52c096c7f35512cd489115f3d751c70cc48651",
+      "saved_at": "2026-10-06T15:36:02.483868+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600009_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600009",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "96c587d7ce52ea90dc02731c8644523aa09735386108e2f99775b4f7b6147171",
+      "saved_at": "2026-10-06T15:36:03.640271+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600028_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600028",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "ddfb770d5626980b7135abd7d162e778ee261580098398d34bc52f28b02beb43",
+      "saved_at": "2026-10-06T15:36:07.662347+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600036_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600036",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "d5ed6fbc318387b457f360312e60001b0ade61fb50f31c5ce31aa451764191db",
+      "saved_at": "2026-10-06T15:36:09.293181+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600030_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600030",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "e7877e8b0a703d5149f22a8f011a268d08c063d9b53e49b0dc9d27a35f6dcd97",
+      "saved_at": "2026-10-06T15:36:10.787855+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600050_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600050",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "65e9f65e523f82419bba2d77bbbb235df02b44b65c87e0404ce0a2246617561b",
+      "saved_at": "2026-10-06T15:36:12.362014+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600276_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600276",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "7489c620319025400fbd4e8cb4ac409b60157b18d4070b2b0bf8559bb92ae504",
+      "saved_at": "2026-10-06T15:36:13.780779+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.600519_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.600519",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "c895aa340d09776a2e53f5cd37bfeb8decd441778c4fda8cec865691b0b92198",
+      "saved_at": "2026-10-06T15:36:15.276052+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.601318_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.601318",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "0b58ee1a70ff4b21289ae4df471ad5246339b1a3e07572a8c26447f99a9378b9",
+      "saved_at": "2026-10-06T15:36:16.556865+08:00"
+    },
+    {
+      "path": "raw/baostock/sh.601398_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sh.601398",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "69033db2b06f4a87531faa4a43e412225411a6d219c849cfdb1e258768606595",
+      "saved_at": "2026-10-06T15:36:17.650554+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.000001_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.000001",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "9803d0481b8b4c21e886badcbafb1cdf3a665d9458af2a3f5ed1b5c2b1113b28",
+      "saved_at": "2026-10-06T15:36:19.372872+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.000002_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.000002",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "4dddf9c88ab16400e5e4943bc579d8157976d8cc122dabae7b8f6dc1c989ac4c",
+      "saved_at": "2026-10-06T15:36:36.615631+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.000063_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.000063",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "1e68fc300dd8d1602a796658a5fce26e01a7b0574b336e2763948097f1f29b5a",
+      "saved_at": "2026-10-06T15:36:39.504543+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.000333_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.000333",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "71011ea4c6de3820b50fc4efea2e71c1ff44912f1fc4110639e5f74c74e100aa",
+      "saved_at": "2026-10-06T15:36:40.095439+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.000651_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.000651",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "725de10e1ec901f15b4975ba4bdf05a14fe09a59d01c1b3ffa4885fc79e4742a",
+      "saved_at": "2026-10-06T15:36:41.081754+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.000858_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.000858",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "d0ce3ad601ddc87dc78de801d5d8358e679d61d32fbed5ca199a396c50c24c40",
+      "saved_at": "2026-10-06T15:36:43.775801+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.002415_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.002415",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "497821b2b6b9514b753b49f09ffbe7fc967f0fb4a84c3ecff3dbdac85867b485",
+      "saved_at": "2026-10-06T15:36:46.002372+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.002594_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.002594",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "b09a2233de715fcf5191e355b83c3d923dd24654650cf1b24e112a96403c1a38",
+      "saved_at": "2026-10-06T15:36:47.521565+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.300059_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.300059",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "1e3b31f19d252a769f4799838c8fd6a02b94c674ecce9cbccb7b259f02ba87dc",
+      "saved_at": "2026-10-06T15:36:49.199826+08:00"
+    },
+    {
+      "path": "raw/baostock/sz.300750_daily.csv",
+      "request": {
+        "method": "query_history_k_data_plus",
+        "code": "sz.300750",
+        "fields": "date,code,open,high,low,close,preclose,volume,amount,adjustflag,turn,tradestatus,pctChg,isST",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31",
+        "frequency": "d",
+        "adjustflag": "3"
+      },
+      "rows": 485,
+      "fields": [
+        "date",
+        "code",
+        "open",
+        "high",
+        "low",
+        "close",
+        "preclose",
+        "volume",
+        "amount",
+        "adjustflag",
+        "turn",
+        "tradestatus",
+        "pctChg",
+        "isST"
+      ],
+      "sha256": "6e73428436b2cab4843a4fb847ba99aafe0c6af4d09e796a53ecc1cc3c98cb7e",
+      "saved_at": "2026-10-06T15:36:49.831220+08:00"
+    },
+    {
+      "path": "raw/baostock/trade_calendar.csv",
+      "request": {
+        "method": "query_trade_dates",
+        "start_date": "2024-01-01",
+        "end_date": "2025-12-31"
+      },
+      "rows": 731,
+      "fields": [
+        "calendar_date",
+        "is_trading_day"
+      ],
+      "sha256": "7dc5e8fed3d1245dfe8e1578c1edf283c4eeb7b7e3b0268b70a64519d851dff6",
+      "saved_at": "2026-10-06T15:36:50.603373+08:00"
+    }
+  ]
+}

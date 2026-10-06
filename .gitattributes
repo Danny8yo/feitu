@@ -1,0 +1,2 @@
+# Preserve downloaded sample bytes for manifest SHA-256 verification.
+data/stock_samples/raw/** -text whitespace=cr-at-eol

@@ -1,0 +1,150 @@
+{
+  "source": "baostock",
+  "calendar_days": 731,
+  "trading_days": 485,
+  "total_daily_rows": 9700,
+  "files": [
+    {
+      "file": "raw/baostock/sh.600000_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600009_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600028_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600036_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600030_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600050_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600276_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.600519_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.601318_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sh.601398_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.000001_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.000002_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.000063_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.000333_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.000651_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.000858_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.002415_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.002594_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.300059_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    },
+    {
+      "file": "raw/baostock/sz.300750_daily.csv",
+      "rows": 485,
+      "first_date": "2024-01-02",
+      "last_date": "2025-12-31",
+      "suspended_rows": 0
+    }
+  ],
+  "issues": [],
+  "passed": true
+}
